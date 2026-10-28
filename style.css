@@ -1,0 +1,154 @@
+.field-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    gap: 5px;
+    align-items: center;
+    border: 2px solid #334155;
+    border-radius: 12px;
+    padding: 15px;
+    background-color: #070d1f;
+
+}
+
+.field {
+    background-color: #1d293d;
+
+    height: 50px;
+    width: 60px;
+    border-radius: 8px;
+}
+
+.father {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gb {
+    grid-column: 1/3;
+    grid-row: 4/7;
+    border: solid 1px;
+    border-color: darkorange;
+    background-color: #0f172a;
+    width: 100%;
+    height: 100%;
+}
+
+.dc-1 {
+
+    grid-column: 3/5;
+    grid-row: 4;
+    background-color: #0f1e3f;
+    border: dotted;
+    border-color: #1d407d;
+    width: 100%;
+    height: 100%;
+
+
+
+}
+
+.dc-2 {
+    grid-column: 3/5;
+    grid-row: 6;
+    background-color: #0f1e3f;
+    border: dotted;
+    border-color: #1d407d;
+    width: 100%;
+    height: 100%;
+}
+
+.dg {
+    grid-column: 4/6;
+    grid-row: 2;
+    background-color: #0f1e3f;
+    border: dotted;
+    border-color: #1d407d;
+    width: 100%;
+    height: 100%;
+}
+
+.dd {
+
+    grid-column: 4/6;
+    grid-row: 8;
+    background-color: #0f1e3f;
+    border: dotted;
+    border-color: #1d407d;
+    width: 100%;
+    height: 100%;
+
+}
+
+.md {
+
+    grid-column: 8/10;
+    grid-row: 8;
+    background-color: #0b2828;
+    border: dotted;
+    border-color: #125a39;
+    width: 100%;
+    height: 100%;
+}
+
+.mg {
+
+    grid-column: 8/10;
+    grid-row: 2;
+    background-color: #0b2828;
+    border: dotted;
+    border-color: #125a39;
+    width: 100%;
+    height: 100%;
+}
+
+.bu-1 {
+
+    grid-column: 11/13;
+    grid-row: 3;
+    background-color: #2a1524;
+    border: dotted;
+    border-color: #912d34;
+    width: 100%;
+    height: 100%;
+}
+
+.bu-2 {
+
+    grid-column: 11/13;
+    grid-row: 8;
+    background-color: #2a1524;
+    border: dotted;
+    border-color: #912d34;
+    width: 100%;
+    height: 100%;
+}
+
+.mc-1 {
+
+    grid-column: 7/9;
+    grid-row: 4;
+    background-color: #0b2828;
+    border: dotted;
+    border-color: #125a39;
+    width: 100%;
+    height: 100%;
+
+}
+
+.mc-2 {
+    grid-column: 7/9;
+    grid-row: 6;
+    background-color: #0b2828;
+    border: dotted;
+    border-color: #125a39;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+
