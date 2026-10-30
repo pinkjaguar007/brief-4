@@ -4,8 +4,8 @@
 
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(9, 1fr);
-    gap: 5px;
-    align-items: center;
+    gap: 8px;
+    height: 100%;
     border: 2px solid #334155;
     border-radius: 12px;
     padding: 15px;
@@ -15,9 +15,6 @@
 
 .field {
     background-color: #1d293d;
-
-    height: 50px;
-    width: 60px;
     border-radius: 8px;
 }
 
@@ -46,8 +43,6 @@
     border-color: #1d407d;
     width: 100%;
     height: 100%;
-
-
 
 }
 
@@ -119,7 +114,7 @@
 .bu-2 {
 
     grid-column: 11/13;
-    grid-row: 8;
+    grid-row: 7;
     background-color: #2a1524;
     border: dotted;
     border-color: #912d34;
@@ -150,5 +145,3 @@
 
 
 }
-
-

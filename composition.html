@@ -8,390 +8,171 @@
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="script.js" defer></script>
-  
+
 </head>
 
 
 <body class="bg-slate-900 text-white">
-    <header class=" bg-slate-800 font-bold ">
+    <header class=" bg-slate-900 font-bold  ">
         <div class="flex h-16 items-center justify-between ml-5 mr-5">
             <div class=" flex  items-center justify-between gap-2">
-                <img src="images/logo-2048.png" width="40PX" height="40PX" alt="">
+                <img src="img/logo.png.png" width="40PX" height="40PX" alt="">
 
                 <H1 class="text-[30px]" text-wh>TACHKILA</H1>
             </div>
+
+            <nav
+                class="flex justify-center justify-between items-center border-1 p-4 px-6 rounded-2xl bg-slate-800 border-slate-700 ">
+
+                <ul class="flex justify-center justify-between items-center gap-8 ">
+
+                    <li><a href="#">Effectif</a></li>
+                    <li><a href="#">Composition</a></li>
+                    <li><a href="#">Matchs</a></li>
+
+                </ul>
+
+            </nav>
+
+
+
             <div>
                 <nav class=" ">
-                    <ul class="md:flex md:items-center md:gap-4 ">
-                        <DIV class="border border-indigo-600 rounded-[10vw] w-2 h-2 bg-amber-500 font-bold"></div>
+                    <ul class="md:flex md:items-center md:gap-3 justify-center">
+                        <DIV class="border border-amber-500 rounded-[10vw] w-3 h-3 bg-amber-500 font-bold"></div>
                         <li class="text-amber-500"> GB</li>
-                        <DIV class="border border-indigo-600 rounded-[10vw] w-2 h-2 bg-blue-500 font-bold"></div>
+                        <DIV class="border border-blue-500 rounded-[10vw] w-3 h-3 bg-blue-500 font-bold"></div>
                         <li class="text-blue-500"> DEF</li>
-                        <DIV class="border border-indigo-600 rounded-[10vw] w-2 h-2 bg-green-500 font-bold"></div>
+                        <DIV class="border border-green-500 rounded-[10vw] w-3 h-3 bg-green-500 font-bold"></div>
                         <li class="text-green-500"> MIL</li>
-                        <DIV class="border border-indigo-600 rounded-[10vw] w-2 h-2 bg-red-500 font-bold"></div>
+                        <DIV class="border border-red-500 rounded-[10vw] w-3 h-3 bg-red-500 font-bold"></div>
                         <li class="text-red-500"> ATT</li>
                     </ul>
                 </nav>
+
+
+
             </div>
-            <div class="flex space justify-between gap-6 items-center">
-                <p class="text-white-800">Schema</p>
-                <div class="border-slate-900 rounded-md  p-1 BORDER6  bg-slate-900">
-                    <p>4-4-2</p>
-                </div>
-            </div>
+
         </div>
     </header>
 
 
-    <main class="flex ">
+    <main class="flex gap-5 p-5 h-[calc(100vh-64px)]">
+
+       
+        <aside class="w-[28%] bg-slate-800 border border-slate-700 rounded-2xl p-4">
+
+        </aside>
+
+        
+        <div class="flex-1 bg-slate-800 border border-slate-700 rounded-2xl p-5">
+
+            <div class="field-grid">
+
+                
+                <div class="field gb flex items-center justify-center text-xl font-bold tracking-widest">GB</div>
+                <div class="field dc-1 flex items-center justify-center text-xl font-bold tracking-widest">DC</div>
+                <div class="field dc-2 flex items-center justify-center text-xl font-bold tracking-widest">DC</div>
+                <div class="field dg flex items-center justify-center text-xl font-bold tracking-widest">DG</div>
+                <div class="field dd flex items-center justify-center text-xl font-bold tracking-widest">DD</div>
+                <div class="field mc-1 flex items-center justify-center text-xl font-bold tracking-widest">MC</div>
+                <div class="field mc-2 flex items-center justify-center text-xl font-bold tracking-widest">MC</div>
+                <div class="field mg flex items-center justify-center text-xl font-bold tracking-widest">MG</div>
+                <div class="field md flex items-center justify-center text-xl font-bold tracking-widest">MD</div>
+                <div class="field bu-1 flex items-center justify-center text-xl font-bold tracking-widest">BU</div>
+                <div class="field bu-2 flex items-center justify-center text-xl font-bold tracking-widest">BU</div>
 
 
-        <div
-            class="h-[calc(100vh-4rem)] w-[30%] shrink-0 overflow-y-auto border-r border-slate-700 bg-slate-800 p-2.5 ">
 
-            <button id="openmodal"
-                class="w-full rounded-2xl bg-green-500 py-3 mt-4  text-xl font-bold ...  focus:ring-2">
-                + Ajoute un joueur
-            </button>
-
-            <div class="mt-6 flex items-center justify-between">
-                <h2>Effectif</h2>
-                <span id="players-count" class="border-1 border rounded-lg p-1 px-4 border-slate-700">1 joueur(s)</span>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
+                <div class="field"></div>
 
             </div>
 
-            <P class=" mt-4 ">
-                cliquer sur un jouuer place pour
-                sa case sur le terrain pour modifier pour supprimmer.
-            </P>
-
-
-            <div class=" mt-6 flex flex-col gap-4 w-full border-1 rounded-xl border-slate-700 p-6  ">
-
-
-                <div class="flex items-center justify-between gap-2">
-                    <h1 id="selected-player" class="min-w-0 truncate font-bold">no player is selected</h1>
-
-                    <div class="flex shrink-0 gap-2">
-                        <button id="edit-btn" type="button"
-                            class="rounded-lg bg-blue-500 px-3 py-1 hover:bg-blue-600">Modifier</button>
-                        <button id="delete-btn" type="button"
-                            class="rounded-lg bg-red-500 px-3 py-1 hover:bg-red-600">Supprimer</button>
-                    </div>
-                </div>
-
-                <select name="" id="players-list"
-                    class=" border-1 border-slate-700 rounded-xl bg-slate-800 w-full border-1 px-4 py-4  ">
-
-
-                    <option value="">Choisir une position</option>
-                    <option value="gb">GB - Gardien</option>
-                    <option value="dg">DG - Défenseur gauche</option>
-                    <option value="dc-1">DC - Défenseur central 1</option>
-                    <option value="dc-2">DC - Défenseur central 2</option>
-                    <option value="dd">DD - Défenseur droit</option>
-                    <option value="mg">MG - Milieu gauche</option>
-                    <option value="mc-1">MC - Milieu central 1</option>
-                    <option value="mc-2">MC - Milieu central 2</option>
-                    <option value="md">MD - Milieu droit</option>
-                    <option value="bu-1">BU - Buteur 1</option>
-                    <option value="bu-2">BU - Buteur 2</option>
-
-
-
-                </select>
-
-            </div>
-
-            <div class="mt-6 flex w-full flex-col gap-4 rounded-xl border border-slate-700 p-6">
-
-                <h2>liste des joueurs</h2>
-
-                <div id="players-container" class="mt-6 flex max-h-80 flex-col gap-3 overflow-y-auto pr-2">
-
-                    <div
-                        class="player-card flex cursor-pointer items-center gap-3 rounded-xl border border-slate-700 bg-slate-900 p-4 hover:bg-slate-700">
-                        <span class="player-number rounded-lg bg-slate-700 px-2 py-1 font-bold">1</span>
-                        <span class="player-name min-w-0 truncate font-bold">Bono</span>
-                    </div>
-
-
-                </div>
-            </div>
         </div>
-
-        <div class="father w-[70%]">
-            <div class="field-grid   ">
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field dg flex items-center justify-center text-xl font-bold tracking-widest ">DG</div>
-                <div class="field dd flex items-center justify-center text-xl font-bold tracking-widest ">DD</div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field mg flex items-center justify-center text-xl font-bold tracking-widest  ">MG</div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field bu-1 flex items-center justify-center text-xl font-bold tracking-widest ">BU</div>
-                <div class="field bu-2 flex items-center justify-center text-xl font-bold tracking-widest ">BU</div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field gb flex items-center justify-center text-xl font-bold tracking-widest  ">GB</div>
-                <div class="field dc-1 flex items-center justify-center text-xl font-bold tracking-widest ">DC</div>
-                <div class="field dc-2 flex items-center justify-center text-xl font-bold tracking-widest ">DC</div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field mc-1 flex items-center justify-center text-xl font-bold tracking-widest ">MC</div>
-                <div class="field mc-2 flex items-center justify-center text-xl font-bold tracking-widest ">MC</div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field md flex items-center justify-center text-xl font-bold tracking-widest  ">MD</div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-                <div class="field"></div>
-            </div>
-        </div>
-
-
-
-
-
 
     </main>
-
-
-
-    <div id="playermodal"
-        class=" flex items-center justify-center min-h-screen   fixed inset-0 z-50 hidden items-center justify-center bg-black/70 p-4    ">
-
-        <form class=" w-full max-w-[560px] p-8 space-y-6 rounded-2xl bg-slate-700 border border-slate-700 ">
-
-            <div class="flex justify-between item-center   ">
-
-                <h1 item-center class=" text-white text-xl font-bold ">Ajoute un joueur</h1>
-
-                <button id="closemodal" type="button" class=" text-white  rounded-2xl flex bg-slate-900 p-2 ">
-                    close
-                </button>
-
-            </div>
-
-
-
-            <div>
-                <label class="block text-white  font-bold mb-2" for="player-name">
-                    Nom complete
-                </label>
-                <input placeholder="Ex. Ayoub Mansouri   " type="text" id="player-name" name="name" required
-                    class=" w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-2xl text-white">
-            </div>
-
-
-            <p class=" font-bold text-white">Post</p>
-
-            <div class="add-position  grid  grid-cols-2  grid-rows-2 gap-4 text-white  ">
-
-
-
-                <button type="button" data-role="gardien"
-                    class="bg-slate-900 border-1 rounded-2xl border-slate-700 flex items-center gap-4 px-4 py-2.5">
-                    <span class="size-2.5 rounded-full bg-amber-400"></span>
-                    gardian</button>
-                <button type="button" data-role="defenseur"
-                    class="bg-slate-900 border-1 rounded-2xl border-slate-700 flex items-center gap-4 px-4 py-2.5 ">
-                    <span class="size-2.5 rounded-full bg-blue-500"></span>
-                    defenseur</button>
-                <button type="button" data-role="milieu"
-                    class="bg-slate-900 border-1 rounded-2xl border-slate-700  flex items-center gap-4  px-4 py-2.5">
-                    <span class="size-2.5 rounded-full bg-green-500"></span>
-                    miliue</button>
-                <button type="button" data-role="attaquant"
-                    class="bg-slate-900 border-1 rounded-2xl border-slate-700  flex items-center gap-4  px-4 py-2.5">
-                    <span class="size-2.5 rounded-full bg-red-500"></span>
-                    attaquant</button>
-
-
-            </div>
-
-            <div>
-                <label class="block text-white  font-bold mb-2" for="player-number" class=" ">Numero (1 a 99)
-                </label>
-                <input placeholder="Ex. 7" type="number" min="1" max="99" id="player-number" player-number="number"
-                    required class=" w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-2xl text-white ">
-
-            </div>
-
-            <div class="flex justify-end gap-2  ">
-
-                <button type="button" id="anuller-button"
-                    class="bg-slate-400  text-white font-bold rounded-xl border-slate-400 px-6 py-2.5">
-                    Annuler
-                </button>
-
-                <button id="ajouter"
-                    class="bg-green-500 text-white font-bold border-1 rounded-xl border-green-500  px-6 py-2.5">
-                    Ajouter
-                </button>
-
-
-
-            </div>
-
-        </form>
-
-
-
-    </div>
-
-
-    <div id="edit-modal"
-        class=" flex items-center justify-center min-h-screen fixed inset-0 z-50 hidden items-center justify-center bg-black/70 p-4 ">
-
-        <form id="edit-form"
-            class=" w-full max-w-[560px] p-8 space-y-6 rounded-2xl bg-slate-700 border border-slate-700 ">
-
-            <div class="flex justify-between item-center ">
-
-                <h1 class=" text-white text-xl font-bold ">Modifier le joueur</h1>
-
-                <button id="edit-close" type="button" class=" text-white rounded-2xl flex bg-slate-900 p-2 ">
-                    close
-                </button>
-
-            </div>
-
-            <div>
-                <label class="block text-white font-bold mb-2" for="edit-name">
-                    Nom complete
-                </label>
-                <input placeholder="Ex. Ayoub Mansouri" type="text" id="edit-name" name="name" required
-                    class=" w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-2xl text-white">
-            </div>
-
-            <p class=" font-bold text-white">Post</p>
-
-            <div class="add-position grid grid-cols-2 grid-rows-2 gap-4 text-white ">
-
-                <button type="button"
-                    class="bg-slate-900 border-1 rounded-2xl border-slate-700 flex items-center gap-4 px-4 py-2.5">
-                    <span class="size-2.5 rounded-full bg-amber-400"></span>
-                    gardian</button>
-                <button type="button"
-                    class="bg-slate-900 border-1 rounded-2xl border-slate-700 flex items-center gap-4 px-4 py-2.5 ">
-                    <span class="size-2.5 rounded-full bg-blue-500"></span>
-                    defenseur</button>
-                <button type="button"
-                    class="bg-slate-900 border-1 rounded-2xl border-slate-700 flex items-center gap-4 px-4 py-2.5">
-                    <span class="size-2.5 rounded-full bg-green-500"></span>
-                    miliue</button>
-                <button type="button"
-                    class="bg-slate-900 border-1 rounded-2xl border-slate-700 flex items-center gap-4 px-4 py-2.5">
-                    <span class="size-2.5 rounded-full bg-red-500"></span>
-                    attaquant</button>
-
-            </div>
-
-            <div>
-                <label class="block text-white font-bold mb-2" for="edit-number">Numero (1 a 99)</label>
-                <input placeholder="Ex. 7" type="number" min="1" max="99" id="edit-number" required
-                    class=" w-full px-4 py-3 bg-slate-900 border border-slate-700 rounded-2xl text-white ">
-            </div>
-
-            <div class="flex justify-end gap-2 ">
-
-                <button type="button" id="edit-cancel"
-                    class="bg-slate-400 text-white font-bold rounded-xl border-slate-400 px-6 py-2.5">
-                    Annuler
-                </button>
-
-                <button id="edit-save"
-                    class="bg-green-500 text-white font-bold border-1 rounded-xl border-green-500 px-6 py-2.5">
-                    Enregistrer
-                </button>
-
-            </div>
-
-        </form>
-
-    </div>
-
-    <template id="player-template">
-        <div
-            class="player-card flex cursor-pointer items-center gap-3 rounded-xl border border-slate-700 bg-slate-900 p-4 hover:bg-slate-700">
-            <span class="player-number rounded-lg bg-slate-700 px-2 py-1 font-bold"></span>
-            <span class="player-dot size-2.5 shrink-0 rounded-full"></span>
-            <span class="player-name min-w-0 truncate font-bold"></span>
-        </div>
-    </template>
-
-
 
 </body>
 
