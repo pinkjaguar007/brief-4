@@ -15,8 +15,8 @@
 <body class="bg-slate-900 text-white">
 
 
-    <header class=" bg-slate-900 font-bold  ">
-        <div class="flex h-16 items-center justify-between ml-5 mr-5">
+    <header class=" bg-slate-900 font-bold border-b-1 border-slate-700 ">
+        <div class="flex h-20 items-center justify-between ml-5 mr-5">
             <div class=" flex  items-center justify-between gap-2">
                 <img src="img/logo.png.png" width="40PX" height="40PX" alt="">
 
@@ -24,13 +24,16 @@
             </div>
 
             <nav
-                class="flex justify-center justify-between items-center border-1 p-4 px-6 rounded-2xl bg-slate-800 border-slate-700 ">
+                class="flex justify-center justify-between items-center border-1 p-4 px-6 rounded-2xl bg-slate-800 border-slate-700   ">
 
                 <ul class="flex justify-center justify-between items-center gap-8 ">
 
-                    <li><a href="#">Effectif</a></li>
-                    <li><a href="#">Composition</a></li>
-                    <li><a href="#">Matchs</a></li>
+                    <li><a href="players.html"
+                            class="block px-4 py-2 rounded-xl text-slate-300 hover:text-white">Players</a></li>
+                    <li><a href="composition.html"
+                            class="block px-4 py-2 rounded-xl text-slate-300 hover:text-white">Composition</a></li>
+                    <li><a href="matches.html" class="block px-4 py-2 rounded-xl bg-green-500 text-white ">Matches</a>
+                    </li>
 
                 </ul>
 
@@ -57,6 +60,7 @@
             </div>
 
         </div>
+
     </header>
 
 
@@ -67,26 +71,27 @@
             class=" flex  w-full border-r border-slate-900 bg-slate-900 justify-between justify-between items-center h-25">
 
             <div class=" flex justify-center justify-between gap-2 text-white font-bold text-4xl flex-col ">
-                <h2>Effectif</h2>
-                <p class="text-sm text-slate-500 font-  ">Gerez les joueurs du club Atlas FC </p>
+                <h2>Matches </h2>
+                <p class="text-sm text-slate-500 font-  ">Manage players of Atlas FC club </p>
 
             </div>
 
 
-            <button id="openmodal"
+            <button id="openmodalmatche"
                 class="w- rounded-2xl bg-green-500 py-2 px-4   text-xl font-bold  justify-center flex items-center">
-                + Ajoute un joueur
+                + Add a matche
             </button>
 
         </div>
 
-        <div class=" grid grid-cols-4    gap-4 h-24  ">
+        <div class=" grid grid-cols-5   gap-4 h-24  ">
 
 
             <div class=" flex border-1 rounded-xl items-center justify-center bg-slate-800  border-slate-800"> 1</div>
             <div class="flex border-1 rounded-xl items-center justify-center bg-slate-800  border-slate-800"> 2</div>
             <div class="flex border-1 rounded-xl items-center justify-center bg-slate-800  border-slate-800">3 </div>
             <div class="flex border-1 rounded-xl items-center justify-center bg-slate-800  border-slate-800 ">4 </div>
+            <div class="flex border-1 rounded-xl items-center justify-center bg-slate-800  border-slate-800 ">5 </div>
 
         </div>
 
@@ -94,38 +99,39 @@
 
         <div class=" flex justify-between border-1 rounded-xl border-slate-800 bg-slate-800 items-center p-3 gap-6 ">
 
+
+
+
+
+            <div
+                class="flex justify-center justify-between items-center border-1  rounded-2xl bg-slate-800 border-slate-700  p-2 px-6  ">
+
+                <ul class="flex justify-center justify-between items-center gap-8 w-full ">
+
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Upcoming </a></li>
+                    <li><a href="#">Played</a></li>
+
+                </ul>
+
+            </div>
+
+
             <div class=" flex w-full">
 
 
                 <form action="search" class=" flex w-full">
 
-                    <input type="text" placeholder="text-slate-500" class="  bg-slate-900 rounded-lg border-2 w-full border-slate-800 p-4 ">
+                    <input type="text" placeholder="search for an opponent "
+                        class="  bg-slate-900 rounded-lg border-2 w-full border-slate-800 p-4 ">
 
                 </form>
 
 
             </div>
 
-            <div
-                class="flex justify-center justify-between items-center border-1  rounded-2xl bg-slate-800 border-slate-700  p-2 px-4  ">
-
-                <ul class="flex justify-center justify-between items-center gap-8 ">
-
-                    <li><a href="#">Tous</a></li>
-                    <li><a href="#">Gb</a></li>
-                    <li><a href="#">Def</a></li>
-                    <li><a href="#">Mil</a></li>
-                    <li><a href="#">Att</a></li>
-
-                </ul>
-
-            </div>
 
         </div>
-
-
-
-
 
 
 
@@ -135,6 +141,46 @@
 
 
     </main>
+
+    <div id="matchemodal"
+        class=" flex items-center justify-center min-h-screen   fixed inset-0 z-50 hidden items-center justify-center bg-black/70 p-4    ">
+
+        <form class=" w-full max-w-[560px] p-8 space-y-6 rounded-2xl bg-slate-700 border border-slate-700 ">
+
+            <div class="flex justify-between item-center   ">
+
+                <button id="closemodalm" type="button" class=" text-white  rounded-2xl flex bg-slate-900 p-2 ">
+                    close
+                </button>
+
+            </div>
+
+            <div class="flex justify-end gap-2  ">
+
+                <button type="button" id="anuller-button"
+                    class="bg-slate-400  text-white font-bold rounded-xl border-slate-400 px-6 py-2.5">
+                    Annuler
+                </button>
+
+                <button id="ajouter"
+                    class="bg-green-500 text-white font-bold border-1 rounded-xl border-green-500  px-6 py-2.5">
+                    Ajouter
+                </button>
+
+
+
+            </div>
+
+        </form>
+
+
+
+    </div>
+
+
+
+
+
 
 
 
